@@ -211,6 +211,7 @@ button:active{
     bottom: 200px;
     display:flex;
     justify-content: center;
+    min-width: 200px;
 }
 
 img{
@@ -226,6 +227,3 @@ img{
     bottom: 20px;
 }
 
-input[type="password"]:user-invalid{
-border-color: red;
-}
