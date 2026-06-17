@@ -162,7 +162,6 @@ input:focus{
 }
 
 input:user-invalid{
-    appearance: none;
     border-color: red;
 }
 
@@ -225,4 +224,8 @@ img{
     display: inline-block;
     position: relative;
     bottom: 20px;
+}
+
+input[type="password"]:user-invalid{
+border-color: red;
 }
